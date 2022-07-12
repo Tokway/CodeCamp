@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+}
+
+:root {
+    --title-color:#CDDEFF;
+    --extra-title-color: #F40102;
+
+}
+
+.main {
+    background-image: url(img/backround_photo);
+}

@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+}
+
+:root {
+    --title-color:#CDDEFF;
+    --extra-title-color: #F40102;
+
+}
+
+.navbar {
+    height: 200px;
+    width: 1080px;
+    margin: auto;
+    background-image: url(img/header-background-logo.png);
+}
