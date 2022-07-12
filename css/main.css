@@ -9,5 +9,9 @@
 }
 
 .main {
-    background-image: url(img/backround_photo);
+    display: flex;
+    height: 3475px;
+    background-image: url("/img/background_photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
