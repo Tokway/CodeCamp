@@ -10,8 +10,45 @@
 
 .main {
     display: flex;
+    flex-direction: column;
+    max-width: 1080;
     height: 3475px;
     background-image: url("/img/background_photo.png");
     background-repeat: no-repeat;
     background-size: cover;
+    align-items: flex-start;
 }
+
+.main__how-to-survive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+    margin: 100px auto;
+    color: var(--extra-title-color);
+}
+
+.main__how-to-survive-title {
+    margin-bottom: 20px;
+}
+
+.main__dash {
+    margin: 0px auto;
+    align-items: center;
+    max-width: 400px;
+}
+
+.main__how-to-survive-content{
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.main__how-to-survive-content-items-left {
+    max-width: 800px;
+}
+
+.main__how-to-survive-content-items-right {
+    max-width: 800px;
+}
+
