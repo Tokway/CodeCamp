@@ -9,8 +9,18 @@
 }
 
 .navbar {
+    display: flex;
+    justify-content: space-around;
     height: 200px;
     width: 1080px;
     margin: auto;
-    background-image: url(img/header-background-logo.png);
+}
+
+.navbar__logo{
+
+}
+
+.navbar__li {
+    
+    
 }
