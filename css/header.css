@@ -1,5 +1,7 @@
 * {
+    line-height: 1.15;
     margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 :root {
@@ -14,17 +16,17 @@
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     white-space: nowrap;
     height: auto;
-    max-width: 1080px;
+    max-width: 1400px;
     margin: auto;
     padding: 20px 0px;
 }
 
 .navbar__logo-img {
-    width: 20%;
+    width: 15%;
 }
 
 .navbar__li {
@@ -54,32 +56,37 @@
 .header__content {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    height: 730px;
+    justify-content: center;
+    height: 700px;
     max-width: 1080;
     margin: auto;
-    background-image: url("/img/background_photo.png");
+    font-family: 'Josefin Sans', sans-serif;
     background-image: url("/img/header-content-img.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .header__content-text {
-    width: 40%;
+    width: 30%;
+    margin-left: 150px;
 }
 
 .header__content-text-title {
-    color: var(--title-color);
+    color: var(--extra-title-color);
+    opacity: 70%;
+    font-style:bold;
+    font-size: 4em;
     margin: 20px auto;
 }
 
 .header__content-text-discription {
     color: var(--title-color);
+    font-size: 1.3em;
 }
 
 
-.header__content-image {
-    
+.header__content-img-img {
+    max-width: 950px;
 }
 
 .header__sponsors {
@@ -90,5 +97,27 @@
 }
 
 .header__sponsors-img {
-    max-width: 100%;
+    max-width: 85%;
 }
+
+.header__content-button{
+    cursor:hand;
+    color:var(--extra-title-color);
+    font-size: 1em;
+    font-weight:900;
+    border:0 !important;
+    padding: 1em 3em;
+    margin:2em auto;
+    background:var(--title-color);
+    display:block;
+    width: 200px;
+    height:50px;
+    transition: border-radius .5s, background 1s, transform .5s;
+  }
+  
+  .header__content-button:hover{
+    color: var(--title-color);
+    background:var(--extra-title-color);
+    transform: scale(1.2);
+    border-radius: 25px;
+  }
